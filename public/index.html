@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinanceForge - Personal Finance Automator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-green-900 to-slate-900 min-h-screen text-white">
+  <header class="border-b border-white/10 bg-slate-900/90 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-gradient-to-br from-green-500 to-lime-600 rounded-xl flex items-center justify-center">
+          <i class="fas fa-wallet text-white"></i>
+        </div>
+        <span class="text-xl font-bold">FinanceForge</span>
+      </div>
+      <button class="bg-green-500 hover:bg-green-400 px-4 py-2 rounded-xl font-medium">
+        <i class="fas fa-plus mr-2"></i>Add Transaction
+      </button>
+    </div>
+  </header>
+  <main class="max-w-7xl mx-auto px-6 py-8">
+    <div class="grid grid-cols-4 gap-4 mb-8">
+      <div class="bg-white/5 border border-white/10 rounded-xl p-5"><p class="text-slate-400 text-sm">Balance</p><p class="text-3xl font-bold">$12,450</p></div>
+      <div class="bg-white/5 border border-white/10 rounded-xl p-5"><p class="text-slate-400 text-sm">Income</p><p class="text-3xl font-bold text-green-400">$8,200</p></div>
+      <div class="bg-white/5 border border-white/10 rounded-xl p-5"><p class="text-slate-400 text-sm">Expenses</p><p class="text-3xl font-bold text-red-400">$4,750</p></div>
+      <div class="bg-white/5 border border-white/10 rounded-xl p-5"><p class="text-slate-400 text-sm">Savings</p><p class="text-3xl font-bold text-blue-400">$3,450</p></div>
+    </div>
+    <div class="grid lg:grid-cols-2 gap-8 mb-8">
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-6">
+        <h2 class="text-xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-chart-pie text-green-400"></i> Spending by Category</h2>
+        <div class="space-y-3">
+          <div><div class="flex justify-between mb-1"><span class="text-sm">Food & Dining</span><span class="text-sm text-green-400">$1,200</span></div><div class="h-2 bg-white/10 rounded-full"><div class="h-full w-[40%] bg-green-500 rounded-full"></div></div></div>
+          <div><div class="flex justify-between mb-1"><span class="text-sm">Transportation</span><span class="text-sm text-blue-400">$800</span></div><div class="h-2 bg-white/10 rounded-full"><div class="h-full w-[27%] bg-blue-500 rounded-full"></div></div></div>
+          <div><div class="flex justify-between mb-1"><span class="text-sm">Shopping</span><span class="text-sm text-purple-400">$650</span></div><div class="h-2 bg-white/10 rounded-full"><div class="h-full w-[22%] bg-purple-500 rounded-full"></div></div></div>
+          <div><div class="flex justify-between mb-1"><span class="text-sm">Entertainment</span><span class="text-sm text-yellow-400">$400</span></div><div class="h-2 bg-white/10 rounded-full"><div class="h-full w-[13%] bg-yellow-500 rounded-full"></div></div></div>
+        </div>
+      </div>
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-6">
+        <h2 class="text-xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-lightbulb text-yellow-400"></i> AI Insights</h2>
+        <div class="space-y-3">
+          <div class="bg-white/5 rounded-xl p-4 border-l-4 border-green-500"><p class="font-medium">Great savings rate!</p><p class="text-slate-400 text-xs">You're saving 28% this month - above average!</p></div>
+          <div class="bg-white/5 rounded-xl p-4 border-l-4 border-yellow-500"><p class="font-medium">Subscription alert</p><p class="text-slate-400 text-xs">You have 5 active subscriptions totaling $89/mo</p></div>
+          <div class="bg-white/5 rounded-xl p-4 border-l-4 border-blue-500"><p class="font-medium">Budget tip</p><p class="text-slate-400 text-xs">Cut dining expenses by 15% to reach savings goal</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white/5 border border-white/10 rounded-2xl p-6">
+      <h2 class="text-xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-list text-indigo-400"></i> Recent Transactions</h2>
+      <div class="space-y-2">
+        <div class="bg-white/5 rounded-xl p-3 flex items-center justify-between"><div class="flex items-center gap-3"><i class="fas fa-utensils text-green-400"></i><span>Restaurant</span></div><span class="text-green-400">-$45.00</span></div>
+        <div class="bg-white/5 rounded-xl p-3 flex items-center justify-between"><div class="flex items-center gap-3"><i class="fas fa-car text-blue-400"></i><span>Gas</span></div><span class="text-red-400">-$52.00</span></div>
+        <div class="bg-white/5 rounded-xl p-3 flex items-center justify-between"><div class="flex items-center gap-3"><i class="fas fa-briefcase text-purple-400"></i><span>Salary</span></div><span class="text-green-400">+$4,500</span></div>
+      </div>
+    </div>
+  </main>
+  <footer class="py-8 text-center text-slate-500 text-sm">FinanceForge - Personal Finance Automator • by Tigha66</footer>
+</body>
+</html>
